@@ -1,7 +1,9 @@
 <template>
   <h1>DC heroes {{ heroesCount }}</h1>
   <ul>
-    <li v-for="(hero, index) in dcHeroes" :key="index">{{ hero.name }}</li>
+    <li v-for="(hero, index) in dcHeroes" :key="hero.name">
+      <p>{{ hero.name }} <button @click="deleteHero(index)">X</button></p>
+    </li>
   </ul>
   <form @submit.prevent="addHero">
     <input v-model.trim="newHero" />
