@@ -1,5 +1,5 @@
 <template>
-  <h1>DC heroes</h1>
+  <h1>DC heroes {{ heroesCount }}</h1>
   <ul>
     <li v-for="(hero, index) in dcHeroes" :key="index">{{ hero.name }}</li>
   </ul>
