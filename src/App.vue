@@ -26,6 +26,14 @@ export default {
         this.newHero = ``;
       }
     },
+    deleteHero(heroIndex) {
+      this.dcHeroes.splice(heroIndex, 1);
+    },
+  },
+  computed: {
+    heroesCount() {
+      return this.dcHeroes.length;
+    },
   },
 };
 </script>
