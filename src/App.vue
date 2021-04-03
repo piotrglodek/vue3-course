@@ -1,18 +1,18 @@
 <template>
   <Header />
   <div class="w-full flex">
-    <Heroes />
+    <!-- <Heroes /> -->
   </div>
 </template>
 
 <script>
 import Header from "./components/Header";
-import Heroes from "./components/Heroes";
+// import Heroes from "./components/Heroes";
 
 export default {
   components: {
     Header,
-    Heroes,
+    // Heroes,
   },
 };
 </script>
