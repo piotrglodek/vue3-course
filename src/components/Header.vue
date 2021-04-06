@@ -17,6 +17,7 @@ export default {
       links: [
         { path: "/dc-heroes", label: "Dc heroes" },
         { path: "/calendar", label: "Calendar" },
+        { path: "/markdown", label: "Markdown" },
       ],
     };
   },
