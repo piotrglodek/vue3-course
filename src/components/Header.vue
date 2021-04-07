@@ -18,6 +18,7 @@ export default {
         { path: "/dc-heroes", label: "Dc heroes" },
         { path: "/calendar", label: "Calendar" },
         { path: "/markdown", label: "Markdown" },
+        { path: "/slider", label: "Slider" },
       ],
     };
   },
