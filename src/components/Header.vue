@@ -7,6 +7,9 @@
       :key="link.label"
       >{{ link.label }}</router-link
     >
+    <button @click="$emit('open-login-modal')" class="mr-3 text-xl">
+      Login
+    </button>
   </nav>
 </template>
 
